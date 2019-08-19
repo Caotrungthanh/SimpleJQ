@@ -1,0 +1,27 @@
+.heart  
+{
+    background: url("../img/heart.png") no-repeat;
+    width: 100px;
+    height: 100px;
+    background-position: 0 0;
+    cursor: pointer;
+    transition: background-position 1s steps(28);
+    /*Quá trình chuyển đổi mất bao nhiêu thời gian.*/
+    transition-duration: 0s;
+}
+.heart.active
+{
+    transition-duration: 1.5s;
+    background-position: -2800px 0;
+}
+body
+{
+    background: #000000;
+}
+.placement
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+}

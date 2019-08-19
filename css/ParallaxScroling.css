@@ -1,0 +1,77 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.parallax 
+{
+    /* The image used */
+    background-image: url('../img/img_parallax.jpg');
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text1
+{
+    width: 100%;
+    height: 500px;
+}
+.container
+{
+    width: 90%;
+    margin: auto;
+    padding: 10px 0;
+}
+.text1 .list
+{
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin-left: 2rem;
+}
+.list i
+{
+    font-size: 3rem;
+}
+.fa-html5
+{
+    color: orangered;
+}
+.fa-js
+{
+    color: rgb(226, 226, 35);
+}
+.fa-css3-alt
+{
+    color: rgb(25, 108, 185);
+}
+.list h3
+{
+    font-size: 2rem;
+}
+.list p
+{
+    font-family: 'Indie Flower', cursive;
+}
+.text2
+{
+    padding: 3rem;
+    background: #18bb3c;
+    text-align: center;
+    color: white;
+}
+.text2 h3
+{
+    font-size: 2rem;
+    margin: 0;
+}
+.text2
+{
+    height: 100%;
+}

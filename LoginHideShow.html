@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Show Hide</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/LoginHideShow.css">
+</head>
+<body>
+    <div class="container">
+        <span class="error" id="msg"></span>
+        <form name="forml" class="box" onsubmit="return checkStuff()">
+            <h4>Admin<span>Dashboard</span></h4>
+            <h5>Sign in to your account</h5>
+            <input type="text" name="email" placeholder="Email" autocomplete="off">
+            <i class="fas fa-eye typcn typcn-eye" id="eye"></i>
+            <input type="password" name="password" placeholder="Password" id="pwd" autocomplete="off">
+            <label>
+                <input type="checkbox">
+                <span></span>
+                <small class="remember">Remember me</small>
+            </label>
+            <a href="#" class="forgetpass">Forget Pass?</a>
+            <input type="submit" value="Sign in" class="btn1">
+        </form>
+        <a href="#" class="dnthave">Don't have an account? Sign up</a>
+    </div>
+    <div class="footer">
+        <span>Made with <i class="fas fa-heart"></i> 
+        <a href=https://www.google.com/maps/dir//19+B%E1%BB%ADu+%C4%90%C3%B3a+Ph%C6%B0%E1%BB%9Bc+Trung/@12.2186652,109.1900714,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x317067590176dce1:0x1f948754dca0f8a6!2m2!1d109.1911818!2d12.2167821">
+        By Cao Trung Thanh</a></span>
+    </div>
+
+    <script src="js/LoginHideShow.js"></script>
+</body>
+</html>
